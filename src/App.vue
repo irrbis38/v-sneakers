@@ -1,18 +1,13 @@
 <script setup>
-import OptionsAPI from './components/OptionsAPI.vue';
-import CompositionAPI from './components/CompositionAPI.vue';
+import CardItem from './components/CardItem.vue';
 </script>
 
 <template>
-  <div>
-    <h2>OptionsAPI</h2>
-  <OptionsAPI />
-  </div>
-
-  <div>
-    <h2>CompositionAPI</h2>
-  <CompositionAPI />
-  </div>
+  <CardItem title="Кроссовки Puma" :price="9500" is-added>
+    <button>Добавить</button>
+  </CardItem>
+  <CardItem title="Кроссовки Nike" :price="11500" :is-added="false"/>
+  <CardItem title="Кроссовки Kike" :price="1500" :is-added="false"/>
 </template>
 
 <style scoped>
