@@ -25,7 +25,7 @@
         class="flex items-center gap-3 text-gray-500 hover:text-black cursor-pointer transition-colors"
       >
         <img src="/profile.svg" alt="" />
-        <b>профиль</b>
+        <b>Профиль</b>
       </li>
     </ul>
   </header>
